@@ -1,0 +1,137 @@
+#user_form{
+    height: 100vh;
+    border: 1px solid;
+    background-image: url(../image/wednesday\ 4.jpg);
+    background-size: cover;
+}
+
+#login_head{
+    min-height: 450px;
+    width: 450px;
+    border-radius: 25px;
+    margin-top: 20vh;
+    margin-left: 35vw;
+    background-color: rgba(177, 204, 115, 0.863);
+    box-shadow: 2px 2px 15px 15px rgb(50, 70, 60);
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#form label{
+    margin-left: 50px;
+}
+input{
+    padding: 3px 7px;  
+}
+.int{
+    margin-left: 25px;
+}
+
+span{
+    margin-left: 180px;
+    color: red;
+}
+
+#button{
+    color: blue;
+    border-style: groove;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 80px;
+    width: 60%;
+}
+#button:hover{
+    background-color: slategrey;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: larger;
+}
+
+a:hover{
+    color: royalblue;
+}
+
+input:focus{
+    outline: 0;
+}
+
+.inputgroup.success input{
+    border-color: rgb(99, 209, 99);
+    border-style: groove;
+    border-width: 2px;
+}
+
+.inputgroup.error input{
+    border-color: rgb(207, 61, 61);
+    border-style: groove;
+    border-width: 2px;
+}
+
+i{
+    position: relative;
+    top: 2px;
+    right: 2vw;
+    cursor: pointer;
+}
+
+#captcha{
+    margin-left: 30px;
+    position: absolute;
+    top: 58vh;
+    left: 38vw;
+    height: 25px;
+    width: 120px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: lightpink;
+    color: brown;
+}
+#type{
+    margin-left: 200px;
+    position: absolute;
+    top: 58vh;
+    left: 37vw;
+    height: 25px;
+    width: 120px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: lightgreen;
+    color: blueviolet;
+}
+#refresh{
+    position: absolute;
+    top: 65vh;
+    left: 43vw;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+}
+#check{
+    position: absolute;
+    top: 65vh;
+    left: 53vw;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+}
+#refresh:hover,#check:hover{
+    color: #fff;
+    background-color: limegreen;
+} 
+#username{
+    margin-left: 57px;
+}
+#useremail{
+    margin-left: 65px;
+}

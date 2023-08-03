@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/create_acc_godaddy.css">
+</head>
+<body>
+    <div id="user_form">
+        <div id="login_head">
+            
+            <form action="" autocomplete="off" id="form">                
+
+                <h1>Create Login</h1>
+
+                <div class="inputgroup">
+                    <label for="username">Username :</label>
+                    <input type="text" id="username" placeholder="Enter your Name" autofocus><br>
+                    <span class="error" id="e1"></span>
+                    <br>
+                </div>
+
+                <div class="inputgroup">
+                    <label for="useremail">E-mail Id:</label>
+                    <input type="email" id="useremail" placeholder="Enter your Mail Id" class="int"><br>
+                    <span class="error" id="e2"></span>
+                    <br>
+                </div>
+
+                <div class="inputgroup">
+                    <label for="userpassword">New Password :</label>
+                    <input type="password" id="userpassword" placeholder="Enter your password" class="int">
+                    <i class="fa-solid fa-eye" id="eye1"></i>
+                    <br>
+                    <span class="error" id="e3"></span>
+                    <br>
+                </div>
+
+                <div class="inputgroup">
+                    <label for="conformpassword">Conform Password :</label>
+                    <input type="password" id="conformpassword" placeholder="Conform your password">
+                    <i class="fa-solid fa-eye" id="eye2"></i>
+                    <br>
+                    <span class="error" id="e4"></span>
+                    <br>
+                </div><br>
+
+                <div>
+                    <input type="text" name="" id="captcha" readonly><br><br>
+                    <input type="text" name="" id="type"> <br><br>
+                    <button id="refresh">Refresh</button>       
+                    <button id="check">Check</button>
+                </div>
+
+                    <input type="button" value="Register" id="button">
+                    
+            </form><br>
+
+            <a href="../html/signin_godaddy.html">Already have an Account? Log-in!..</a>
+
+        </div>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/1192cda856.js" crossorigin="anonymous"></script>
+    <script src="../js/create_acc_godaddy.js"></script>
+
+</body>
+</html>

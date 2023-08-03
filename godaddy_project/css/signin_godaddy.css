@@ -1,0 +1,54 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#main_div{
+    border: 1px solid black;
+    height: 100vh;
+    background-image: url('../image/wednesday\ 8.jpg');
+    background-position: top left;
+}
+#content_div{
+    height: 350px;
+    width: 450px;
+    border-radius: 25px;
+    margin-top: 25vh;
+    margin-left: 25vw;
+    padding-top: 1px;
+    background-color: rgba(206, 156, 86, 0.5);
+    box-shadow: 2px 3px 15px 10px rgb(185, 108, 108 , .7);
+}
+h1,form{
+    text-align: center;
+}
+form{
+    color: red;
+    font-size: x-large;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+a:hover{
+    color: chartreuse;
+}
+
+#name , #password{
+    height: 25px;
+    padding: 5px 10px;
+    font-size: medium;
+}
+
+#button{
+    /* border-style: none; */
+    color: blue;
+    border-style: groove;
+    padding: 7px 20px;
+    font-size: larger;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#button:hover{
+    color: #fff;
+    background: slategrey;
+}
